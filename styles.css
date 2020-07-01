@@ -213,20 +213,10 @@ figcaption{
     display: grid;
     grid-template-columns: 40% 60%;
 }
-
-
-/* .figures¨{
-    flex:1;
-}
-.RPDevelopment{
-    flex:2;
-}
-.development-wrapper2{
-    display: flex;
-}
-.clip{
-    flex: 1;
-} */
 .development-pubs li{
     line-height: 2;
+}
+/* Styles for Bio */
+.profile-content-wrapper{
+    line-height: 1.5;
 }
