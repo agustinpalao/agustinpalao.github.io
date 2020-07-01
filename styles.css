@@ -208,3 +208,25 @@ figcaption{
     font-size: smaller;
     font-style: italic;
 }
+/*Styles for Development*/
+.development-wrapper1{
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+
+/* .figures¨{
+    flex:1;
+}
+.RPDevelopment{
+    flex:2;
+}
+.development-wrapper2{
+    display: flex;
+}
+.clip{
+    flex: 1;
+}
+.development-pubs{
+    flex: 2;
+} */
