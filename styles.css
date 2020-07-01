@@ -226,7 +226,7 @@ figcaption{
 }
 .clip{
     flex: 1;
-}
-.development-pubs{
-    flex: 2;
 } */
+.development-pubs li{
+    line-height: 2;
+}
