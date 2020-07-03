@@ -220,3 +220,70 @@ figcaption{
 .profile-content-wrapper{
     line-height: 1.5;
 }
+
+/* Styles for CV and Contact */
+.cv-resume{
+    margin: auto;
+    background-image: url(http://gdj.graphicdesignjunction.com/wp-content/uploads/2012/08/minimal-background-pattern-wordpress-1.jpg);
+    text-align: center;
+
+}
+.cv-resume h2{
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-style: italic;
+    line-height: 20px;
+    font-weight: bold;
+    padding: 30px;
+}
+.cv-resume a{
+    color: rgb(221, 24, 24);
+    font-weight: bold;
+}
+
+.contact-form{
+    margin-top: 20px;
+    transition: all 4s ease-in-out;
+    padding: 10px;
+}
+.contact-form h2{
+    font-size: 28px;
+    line-height: 10px;
+}
+.contact-form h3{
+    font-size: 14px;
+    line-height: 10px;
+}
+form{
+    margin-top: 50px;
+    transition: all 4s ease-in-out;
+    padding-left: 60px;
+}
+.form-control{
+    width: 600px;
+    background: aliceblue;
+    border: antiquewhite;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: rgb(221, 24, 24);
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+input{
+    height: 45px;
+}
+form .submit{
+    background: khaki;
+    border-color: transparent;
+    color: gray;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px ;
+    height: 50px;
+    margin-top: 20px;
+}
+form .submit:hover{
+    background-color: tomato;
+    cursor: pointer;
+}
