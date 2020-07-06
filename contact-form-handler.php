@@ -1,10 +1,13 @@
 <?php
+if(isset($_POST['submit'])){
+
+
     $name = $_POST['name'];
     $visitor_email = $_POST['email'];
     $message = $_POST['message'];
 
 
-    $email_from = 'falseemail@gmail.com'
+    $email_from = 'apalaomx@yahoo.com.mx'
 
     $email_subject ="New Form Submission";
 
@@ -20,5 +23,7 @@
     mail($to,$email_subject,$email_body,$headers);
 
     header("Location: contact.html");
+
+}
 
 ?>
